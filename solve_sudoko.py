@@ -3,7 +3,7 @@ import time
 import numpy as np
 from z3 import Solver, sat, Int, Distinct, And
 
-# Taken from
+# Taken from: https://rhettinger.github.io/einstein.html#sudoku-puzzles
 PROBLEMS = [
     "53  7    6  195    98    6 8   6   34  8 3  17   2   6 6    28    419  5    8  79",
     "       75  4  5   8 17 6   36  2 7 1   5 1   1 5 8  96   1 82 3   4  9  48       ",
